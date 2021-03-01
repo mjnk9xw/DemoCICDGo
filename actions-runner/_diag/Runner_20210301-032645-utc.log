@@ -1,0 +1,220 @@
+[2021-03-01 03:26:45Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Bin': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Root': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner'
+[2021-03-01 03:26:45Z INFO HostContext] Well known config file 'Credentials': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.credentials'
+[2021-03-01 03:26:45Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2021-03-01 03:26:45Z INFO Listener] RuntimeInformation: Linux 5.8.0-41-generic #46~20.04.1-Ubuntu SMP Mon Jan 18 17:52:23 UTC 2021.
+[2021-03-01 03:26:45Z INFO Listener] Version: 2.277.1
+[2021-03-01 03:26:45Z INFO Listener] Commit: 183a3dd9a0d4d51feddc5fe9fa6c3b5f8b08343d
+[2021-03-01 03:26:45Z INFO Listener] Culture: en-US
+[2021-03-01 03:26:45Z INFO Listener] UI Culture: en-US
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Bin': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Root': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner'
+[2021-03-01 03:26:45Z INFO Listener] Validating directory permissions for: '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner'
+[2021-03-01 03:26:45Z INFO CommandLineParser] Parse
+[2021-03-01 03:26:45Z INFO CommandLineParser] Parsing 5 args
+[2021-03-01 03:26:45Z INFO CommandLineParser] parsing argument
+[2021-03-01 03:26:45Z INFO CommandLineParser] HasArgs: False
+[2021-03-01 03:26:45Z INFO CommandLineParser] Adding Command: configure
+[2021-03-01 03:26:45Z INFO CommandLineParser] parsing argument
+[2021-03-01 03:26:45Z INFO CommandLineParser] HasArgs: True
+[2021-03-01 03:26:45Z INFO CommandLineParser] arg: url
+[2021-03-01 03:26:45Z INFO CommandLineParser] parsing argument
+[2021-03-01 03:26:45Z INFO CommandLineParser] HasArgs: True
+[2021-03-01 03:26:45Z INFO CommandLineParser] Adding option 'url': 'https://github.com/mjnk9xw/DemoCICDGo'
+[2021-03-01 03:26:45Z INFO CommandLineParser] parsing argument
+[2021-03-01 03:26:45Z INFO CommandLineParser] HasArgs: True
+[2021-03-01 03:26:45Z INFO CommandLineParser] arg: token
+[2021-03-01 03:26:45Z INFO CommandLineParser] parsing argument
+[2021-03-01 03:26:45Z INFO CommandLineParser] HasArgs: True
+[2021-03-01 03:26:45Z INFO CommandLineParser] Adding option 'token': '***'
+[2021-03-01 03:26:45Z INFO Listener] Arguments parsed
+[2021-03-01 03:26:45Z INFO Runner] ExecuteCommand
+[2021-03-01 03:26:45Z INFO ConfigurationStore] currentAssemblyLocation: /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin/Runner.Listener.dll
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Bin': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:26:45Z INFO ConfigurationStore] binPath: /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Bin': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Root': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner'
+[2021-03-01 03:26:45Z INFO ConfigurationStore] RootFolder: /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Bin': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Root': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner'
+[2021-03-01 03:26:45Z INFO HostContext] Well known config file 'Runner': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.runner'
+[2021-03-01 03:26:45Z INFO ConfigurationStore] ConfigFilePath: /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.runner
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Bin': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Root': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner'
+[2021-03-01 03:26:45Z INFO HostContext] Well known config file 'Credentials': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.credentials'
+[2021-03-01 03:26:45Z INFO ConfigurationStore] CredFilePath: /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.credentials
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Bin': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Root': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner'
+[2021-03-01 03:26:45Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.credentials_migrated'
+[2021-03-01 03:26:45Z INFO ConfigurationStore] MigratedCredFilePath: /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.credentials_migrated
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Bin': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:26:45Z INFO HostContext] Well known directory 'Root': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner'
+[2021-03-01 03:26:45Z INFO HostContext] Well known config file 'Service': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.service'
+[2021-03-01 03:26:45Z INFO ConfigurationStore] ServiceConfigFilePath: /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.service
+[2021-03-01 03:26:45Z INFO CommandSettings] Flag 'help': 'False'
+[2021-03-01 03:26:45Z INFO CommandSettings] Flag 'version': 'False'
+[2021-03-01 03:26:45Z INFO CommandSettings] Flag 'commit': 'False'
+[2021-03-01 03:26:45Z INFO CommandSettings] Flag 'check': 'False'
+[2021-03-01 03:26:45Z INFO CommandSettings] Command 'configure': 'True'
+[2021-03-01 03:26:45Z INFO Terminal] WRITE LINE: 
+[2021-03-01 03:26:45Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2021-03-01 03:26:45Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2021-03-01 03:26:45Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2021-03-01 03:26:45Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2021-03-01 03:26:45Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2021-03-01 03:26:45Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2021-03-01 03:26:45Z INFO Terminal] WRITE LINE: |                                                                              |
+[2021-03-01 03:26:45Z INFO Terminal] WRITE: |                       
+[2021-03-01 03:26:45Z INFO Terminal] WRITE: Self-hosted runner registration
+[2021-03-01 03:26:45Z INFO Terminal] WRITE LINE:                         |
+[2021-03-01 03:26:45Z INFO Terminal] WRITE LINE: |                                                                              |
+[2021-03-01 03:26:45Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2021-03-01 03:26:45Z INFO ConfigurationManager] ConfigureAsync
+[2021-03-01 03:26:45Z INFO ConfigurationStore] IsConfigured()
+[2021-03-01 03:26:45Z INFO ConfigurationStore] IsConfigured: False
+[2021-03-01 03:26:45Z INFO ConfigurationManager] Is configured: False
+[2021-03-01 03:26:45Z INFO CommandSettings] Arg 'url': 'https://github.com/mjnk9xw/DemoCICDGo'
+[2021-03-01 03:26:45Z INFO CommandSettings] Remove url from Arg dictionary.
+[2021-03-01 03:26:45Z INFO CommandSettings] Arg 'token': '***'
+[2021-03-01 03:26:45Z INFO CommandSettings] Remove token from Arg dictionary.
+[2021-03-01 03:26:46Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration'
+[2021-03-01 03:26:46Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2021-03-01 03:26:46Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-03-01 03:26:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-03-01 03:26:46Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-03-01 03:26:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-03-01 03:26:46Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-03-01 03:26:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-03-01 03:26:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-03-01 03:26:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-03-01 03:26:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-03-01 03:26:48Z INFO Terminal] WRITE LINE: 
+[2021-03-01 03:26:48Z INFO ConfigurationManager] Test Connection complete.
+[2021-03-01 03:26:48Z INFO HostContext] Well known directory 'Bin': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:26:48Z INFO HostContext] Well known directory 'Root': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner'
+[2021-03-01 03:26:48Z INFO HostContext] Well known config file 'RSACredentials': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.credentials_rsaparams'
+[2021-03-01 03:26:48Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2021-03-01 03:26:48Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.credentials_rsaparams
+[2021-03-01 03:26:48Z INFO RSAFileKeyManager] Which: 'chmod'
+[2021-03-01 03:26:48Z INFO RSAFileKeyManager] Location: '/usr/bin/chmod'
+[2021-03-01 03:26:48Z INFO HostContext] Well known directory 'Bin': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:26:48Z INFO HostContext] Well known directory 'Root': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner'
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper] Starting process:
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/chmod'
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper]   Arguments: '600 /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.credentials_rsaparams'
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper]   Working directory: '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner'
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper] Failed to update oom_score_adj for PID: 545479.
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper] System.UnauthorizedAccessException: Access to the path '/proc/545479/oom_score_adj' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at System.IO.FileStream.OpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at GitHub.Runner.Sdk.ProcessInvoker.WriteProcessOomScoreAdj(Int32 processId, Int32 oomScoreAdj)
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper] Process started with process id 545479, waiting for process exit.
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-03-01 03:26:48Z INFO ProcessInvokerWrapper] Finished process 545479 with exit code 0, and elapsed time 00:00:00.0084821.
+[2021-03-01 03:26:48Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.credentials_rsaparams
+[2021-03-01 03:26:48Z INFO ConfigurationManager] Found a self-hosted runner group with id {1} and name {2} 1, Default
+[2021-03-01 03:26:48Z INFO CommandSettings] Arg 'name': ''
+[2021-03-01 03:26:48Z INFO CommandSettings] Flag 'unattended': 'False'
+[2021-03-01 03:26:48Z INFO PromptManager] ReadValue
+[2021-03-01 03:26:48Z INFO Terminal] WRITE: Enter the name of runner: 
+[2021-03-01 03:26:48Z INFO Terminal] WRITE: [press Enter for vtp-pcntt-minhnv] 
+[2021-03-01 03:26:48Z INFO Terminal] READ LINE
+[2021-03-01 03:26:50Z INFO Terminal] Read value: ''
+[2021-03-01 03:26:50Z INFO PromptManager] Falling back to the default: 'vtp-pcntt-minhnv'
+[2021-03-01 03:26:50Z INFO Terminal] WRITE LINE: 
+[2021-03-01 03:26:50Z INFO CommandSettings] Arg 'labels': ''
+[2021-03-01 03:26:50Z INFO CommandSettings] Flag 'unattended': 'False'
+[2021-03-01 03:26:50Z INFO PromptManager] ReadValue
+[2021-03-01 03:26:50Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2021-03-01 03:26:50Z INFO Terminal] WRITE: [press Enter to skip] 
+[2021-03-01 03:26:50Z INFO Terminal] READ LINE
+[2021-03-01 03:26:52Z INFO Terminal] Read value: ''
+[2021-03-01 03:26:52Z INFO Terminal] WRITE LINE: 
+[2021-03-01 03:26:53Z INFO ConfigurationStore] Saving OAuth credential @ /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.credentials
+[2021-03-01 03:26:53Z INFO ConfigurationStore] Credentials Saved.
+[2021-03-01 03:26:53Z INFO ConfigurationStore] HasCredentials()
+[2021-03-01 03:26:53Z INFO ConfigurationStore] stored True
+[2021-03-01 03:26:53Z INFO CredentialManager] GetCredentialProvider
+[2021-03-01 03:26:53Z INFO CredentialManager] Creating type OAuth
+[2021-03-01 03:26:53Z INFO CredentialManager] Creating credential type: OAuth
+[2021-03-01 03:26:53Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.credentials_rsaparams
+[2021-03-01 03:26:53Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2021-03-01 03:26:53Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-03-01 03:26:53Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-03-01 03:26:53Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-03-01 03:26:53Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2021-03-01 03:26:53Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2021-03-01 03:26:53Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-03-01 03:26:54Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-03-01 03:26:54Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2021-03-01 03:26:54Z WARN GitHubActionsService] Authentication failed with status code 401.
+WWW-Authenticate: Bearer
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: 32ac90f8-32e7-4458-a444-500988444dc9
+ActivityId: 01d26047-9157-4099-bbd6-5758e94d5c45
+X-TFS-Session: 0e7fde4e-c8fd-4449-9ef4-87da8ef5034c
+X-VSS-E2EID: c34ccbc0-9f12-4dab-a21d-60e55b9da030
+X-VSS-SenderDeploymentId: 2c974d96-2c30-cef5-eff2-3e0511a903a5
+X-TFS-ServiceError: The+user+%27System%3aPublicAccess%3baaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa%27+is+not+authorized+to+access+this+resource.
+X-VSS-S2STargetService: 0000005A-0000-8888-8000-000000000000/visualstudio.com
+X-MSEdge-Ref: Ref A: 4668D5A32A884A1CA7E5EFB865C5B751 Ref B: HKBEDGE0407 Ref C: 2021-03-01T03:26:54Z
+Date: Mon, 01 Mar 2021 03:26:54 GMT
+
+[2021-03-01 03:26:54Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.credentials_rsaparams
+[2021-03-01 03:26:54Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.credentials_rsaparams
+[2021-03-01 03:26:56Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2021-03-01 03:26:56Z INFO CommandSettings] Arg 'work': ''
+[2021-03-01 03:26:56Z INFO CommandSettings] Flag 'unattended': 'False'
+[2021-03-01 03:26:56Z INFO PromptManager] ReadValue
+[2021-03-01 03:26:56Z INFO Terminal] WRITE: Enter name of work folder: 
+[2021-03-01 03:26:56Z INFO Terminal] WRITE: [press Enter for _work] 
+[2021-03-01 03:26:56Z INFO Terminal] READ LINE
+[2021-03-01 03:27:06Z INFO Terminal] Read value: ''
+[2021-03-01 03:27:06Z INFO PromptManager] Falling back to the default: '_work'
+[2021-03-01 03:27:06Z INFO ConfigurationStore] Saving runner settings.
+[2021-03-01 03:27:06Z INFO ConfigurationStore] Settings Saved.
+[2021-03-01 03:27:06Z INFO Terminal] WRITE LINE: 
+[2021-03-01 03:27:06Z INFO Terminal] WRITE LINE: 
+[2021-03-01 03:27:06Z INFO SystemDControlManager] Service name 'actions.runner.mjnk9xw-DemoCICDGo.vtp-pcntt-minhnv.service' display name 'GitHub Actions Runner (mjnk9xw-DemoCICDGo.vtp-pcntt-minhnv)' will be used for service configuration.
+[2021-03-01 03:27:06Z INFO HostContext] Well known directory 'Bin': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:27:06Z INFO HostContext] Well known directory 'Root': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner'
+[2021-03-01 03:27:06Z INFO HostContext] Well known directory 'Bin': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:27:06Z INFO HostContext] Well known directory 'Bin': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:27:06Z INFO HostContext] Well known directory 'Root': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner'
+[2021-03-01 03:27:06Z INFO UnixUtil] Which: 'chmod'
+[2021-03-01 03:27:06Z INFO UnixUtil] Location: '/usr/bin/chmod'
+[2021-03-01 03:27:06Z INFO UnixUtil] Running /usr/bin/chmod 755 "/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/svc.sh"
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper] Starting process:
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/chmod'
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper]   Arguments: '755 "/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/svc.sh"'
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper]   Working directory: '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner'
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 545532.
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper] Process started with process id 545532, waiting for process exit.
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-03-01 03:27:06Z INFO ProcessInvokerWrapper] Finished process 545532 with exit code 0, and elapsed time 00:00:00.0007462.
+[2021-03-01 03:27:06Z INFO Listener] Runner execution has finished with return code 0

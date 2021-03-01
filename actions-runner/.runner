@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "vtp-pcntt-minhnv",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/wDsUC2X5X6ygmBHMkAKs1BhOC0GGPzX32vuIcoZY6reF86ijOc",
+  "gitHubUrl": "https://github.com/mjnk9xw/DemoCICDGo",
+  "workFolder": "_work"
+}
