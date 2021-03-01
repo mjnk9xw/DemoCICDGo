@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "mjnk9xw/DemoCICDGo",
+  "pipelineDirectory": "DemoCICDGo",
+  "workspaceDirectory": "DemoCICDGo/DemoCICDGo",
+  "repositories": {
+    "mjnk9xw/DemoCICDGo": {
+      "repositoryPath": "DemoCICDGo/DemoCICDGo",
+      "lastRunOn": "03/01/2021 10:37:18 +07:00"
+    }
+  },
+  "lastRunOn": "03/01/2021 10:37:18 +07:00"
+}

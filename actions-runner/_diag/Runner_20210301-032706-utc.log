@@ -120,3 +120,37 @@ Date: Mon, 01 Mar 2021 03:27:07 GMT
 [2021-03-01 03:27:09Z INFO MessageListener] Session created.
 [2021-03-01 03:27:09Z INFO Terminal] WRITE LINE: 2021-03-01 03:27:09Z: Listening for Jobs
 [2021-03-01 03:27:09Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2021-03-01 03:37:15Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/.credentials_rsaparams
+[2021-03-01 03:37:15Z INFO MessageListener] Message '1' received from session '4192c1c9-8e0a-4e77-a81d-693544cd06f9'.
+[2021-03-01 03:37:15Z INFO JobDispatcher] Job request 1 for plan 341c6a16-f134-40ea-aad0-1d604db7ea30 job 5264e576-3c6f-51f6-f055-fab409685f20 received.
+[2021-03-01 03:37:15Z INFO JobDispatcher] Pull OrchestrationId 341c6a16-f134-40ea-aad0-1d604db7ea30.test.__default from JWT claims
+[2021-03-01 03:37:15Z INFO Terminal] WRITE LINE: 2021-03-01 03:37:15Z: Running job: test
+[2021-03-01 03:37:15Z INFO JobDispatcher] Start renew job request 1 for job 5264e576-3c6f-51f6-f055-fab409685f20.
+[2021-03-01 03:37:16Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 3/1/2021 3:47:16 AM
+[2021-03-01 03:37:16Z INFO HostContext] Well known directory 'Bin': '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:37:16Z INFO ProcessInvokerWrapper] Starting process:
+[2021-03-01 03:37:16Z INFO ProcessInvokerWrapper]   File name: '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin/Runner.Worker'
+[2021-03-01 03:37:16Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 171 174'
+[2021-03-01 03:37:16Z INFO ProcessInvokerWrapper]   Working directory: '/home/mjnk9xw/go/src/TrustKeys/VTP/Test/testlog/actions-runner/bin'
+[2021-03-01 03:37:16Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2021-03-01 03:37:16Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2021-03-01 03:37:16Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2021-03-01 03:37:16Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2021-03-01 03:37:16Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2021-03-01 03:37:16Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2021-03-01 03:37:16Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2021-03-01 03:37:16Z INFO ProcessInvokerWrapper] Process started with process id 547211, waiting for process exit.
+[2021-03-01 03:37:16Z INFO JobDispatcher] Send job request message to worker for job 5264e576-3c6f-51f6-f055-fab409685f20.
+[2021-03-01 03:37:16Z INFO JobNotification] Entering JobStarted Notification
+[2021-03-01 03:37:16Z INFO JobNotification] Entering StartMonitor
+[2021-03-01 03:38:17Z INFO JobDispatcher] Successfully renew job request 1, job is valid till 3/1/2021 3:48:17 AM
+[2021-03-01 03:39:04Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-03-01 03:39:04Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2021-03-01 03:39:04Z INFO ProcessInvokerWrapper] Finished process 547211 with exit code 102, and elapsed time 00:01:48.0276885.
+[2021-03-01 03:39:04Z INFO JobDispatcher] Worker finished for job 5264e576-3c6f-51f6-f055-fab409685f20. Code: 102
+[2021-03-01 03:39:04Z INFO JobDispatcher] finish job request for job 5264e576-3c6f-51f6-f055-fab409685f20 with result: Failed
+[2021-03-01 03:39:04Z INFO Terminal] WRITE LINE: 2021-03-01 03:39:04Z: Job test completed with result: Failed
+[2021-03-01 03:39:04Z INFO JobDispatcher] Stop renew job request for job 5264e576-3c6f-51f6-f055-fab409685f20.
+[2021-03-01 03:39:04Z INFO JobDispatcher] job renew has been canceled, stop renew job request 1.
+[2021-03-01 03:39:04Z INFO JobNotification] Entering JobCompleted Notification
+[2021-03-01 03:39:04Z INFO JobNotification] Entering EndMonitor
